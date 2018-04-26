@@ -1,0 +1,17 @@
+{
+  "name": "ll-seajs",
+  "version": "1.0.0",
+  "description": "seajs",
+  "main": "require.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "seajs"
+  ],
+  "author": "llwcy8801",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}

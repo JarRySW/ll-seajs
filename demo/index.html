@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" src="../event.js"></script>
+    <script type="text/javascript" src="../require.js"></script>
+    <script type="text/javascript">
+        function addmodule () {
+            require("./a.js")
+            require("./b.js")
+        }
+        start(addmodule.toString())
+    </script>
+</body>
+</html>
